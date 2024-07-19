@@ -1,0 +1,255 @@
+---
+urn: urn:intuitem:risk:library:iso27005-threats-2022
+locale: en
+ref_id: iso27005-threats-2022
+name: ISO/27005:2022 - Threats and Vulnerabilty
+description: ISO/27005:2022 - Threats and Vulnerabilty
+version: 1
+provider: ISO
+packager: intuitem
+objects:
+  threats:
+    ###################
+    # Physical Damage #
+    ###################
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:pd01
+      ref_id: PD01
+      name: Fire
+      description: ""
+
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:pd02
+      ref_id: PD02
+      name: Water Damage
+      description: ""
+    
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:pd03
+      ref_id: PD03
+      name: Pollution
+      description: ""
+
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:pd04
+      ref_id: PD04
+      name: Major Accident
+      description: ""
+
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:pd05
+      ref_id: PD05
+      name: Destruction of equipment or media
+      description: ""
+    
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:pd06
+      ref_id: PD06
+      name: Dust, corrosion, freezing
+      description: ""
+    
+    ##################
+    # Natural Events #
+    ##################
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:ne01
+      ref_id: NE01
+      name: Climatic phenomenon
+      description: ""
+
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:ne02
+      ref_id: NE02
+      name: Seismic phenomenon
+      description: ""
+    
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:ne03
+      ref_id: NE03
+      name: Volcanic phenomenon
+      description: ""
+
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:ne04
+      ref_id: NE04
+      name: Meteorological phenomenon
+      description: ""
+
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:ne05
+      ref_id: NE05
+      name: Flood
+      description: ""
+    
+    ##############################
+    # Loss of essential services #
+    ##############################
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:le01
+      ref_id: LE01
+      name: Failure of air-conditioning or water supply system
+      description: ""
+
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:le02
+      ref_id: LE02
+      name: Loss of power supply
+      description: ""
+    
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:le03
+      ref_id: LE03
+      name: Failure of telecommunications equipment
+      description: ""
+
+    ################################
+    # Disturbance due to Radiation #
+    ################################
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:dr01
+      ref_id: DR01
+      name: Electromagnetic radiation
+      description: ""
+
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:dr02
+      ref_id: DR02
+      name: Thermal radiation
+      description: ""
+    
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:dr03
+      ref_id: DR03
+      name: Electromagnetic pulses
+      description: ""
+
+    ##############################
+    # Compromise of informations #
+    ##############################
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:cl01
+      ref_id: CL01
+      name: Interception of compromising interference signals
+      description: ""
+
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:cl02
+      ref_id: CL02
+      name: Remote spying
+      description: ""
+    
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:cl03
+      ref_id: CL03
+      name: Eavesdropping
+      description: ""
+
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:cl04
+      ref_id: CL04
+      name: Theft of media or documents
+      description: ""
+
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:cl05
+      ref_id: CL05
+      name: Theft of equipment
+      description: ""
+    
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:cl06
+      ref_id: CL06
+      name: Retrieval of recycled or discarded media
+      description: ""
+
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:cl07
+      ref_id: CL07
+      name: Disclosure
+      description: ""
+    
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:cl08
+      ref_id: CL08
+      name: Data from untrustworthy sources
+      description: ""
+
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:cl09
+      ref_id: CL09
+      name: Tampering with hardware
+      description: ""
+
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:cl10
+      ref_id: CL10
+      name: Tampering with software
+      description: ""
+
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:cl11
+      ref_id: CL11
+      name: Position detection 
+      description: ""
+
+    ######################
+    # Technical Failures #
+    ######################
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:tf01
+      ref_id: TF01
+      name: Equipment failure
+      description: ""
+
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:tf02
+      ref_id: TF02
+      name: Equipment malfunction
+      description: ""
+    
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:tf03
+      ref_id: TF03
+      name: Saturation of the information system
+      description: ""
+
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:tf04
+      ref_id: TF04
+      name: Software malfunction
+      description: ""
+
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:tf05
+      ref_id: TF05
+      name: Breach of information system maintainability
+      description: ""
+
+    ########################
+    # Unauthorized Actions #
+    ########################
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:ua01
+      ref_id: UA01
+      name: Unauthorized use of equipment
+      description: ""
+
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:ua02
+      ref_id: UA02
+      name: Fraudulent copying of software
+      description: ""
+    
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:ua03
+      ref_id: UA03
+      name: Use of counterfeit or copied software
+      description: ""
+
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:ua04
+      ref_id: UA04
+      name: Corruption of data
+      description: ""
+
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:ua05
+      ref_id: UA05
+      name: Illegal processing of data
+      description: ""
+
+    ###########################
+    # Compromise of functions #
+    ###########################
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:cf01
+      ref_id: CF01
+      name: Error in use
+      description: ""
+
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:cf02
+      ref_id: CF02
+      name: Abuse of rights
+      description: ""
+    
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:cf03
+      ref_id: CF03
+      name: Forging of rights
+      description: ""
+
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:cf04
+      ref_id: CF04
+      name: Denial of actions
+      description: ""
+
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:cf05
+      ref_id: CF05
+      name: Breach of personnel availability
+      description: ""
+  
+  vulns:
+    - urn: urn:intuitem:risk:threat:iso27005-threats-2022:h01
+      ref_id: H01
+      name: Insufficient maintenance/faulty installation of storage media
+      description: "Short desc"
